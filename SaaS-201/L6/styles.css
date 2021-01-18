@@ -1,0 +1,110 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.todo-page--main-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #453c52;
+}
+
+.add-todo--container {
+  display: flex;
+  margin-bottom: 24px;
+  height: 32px;
+}
+
+.add-todo--text {
+  font-size: 14px;
+  color: #726a7e;
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: #bfb8cc 1px solid;
+  border-radius: 4px;
+}
+
+.add-todo--date {
+  font-size: 14px;
+  color: #726a7e;
+  padding: 6px;
+  margin-right: 10px;
+  border: #bfb8cc 1px solid;
+  border-radius: 4px;
+}
+
+.add-todo--btn {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px 22px;
+  border: #48bb78 1px solid;
+  border-radius: 4px;
+  background-color: #48bb78;
+}
+
+.todo-list--container {
+  margin-bottom: 24px;
+}
+
+.todo-list--title-container {
+  color: #453c52;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.todo-list--title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo-list--count {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.todo-list-item--container {
+  color: #453c52;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.todo-list-item--status {
+  width: 16px;
+  height: 16px;
+}
+
+.todo-list-item--text {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.todo-list-item--date {
+  font-size: 12px;
+  color: #726a7e;
+  margin-left: 8px;
+}
+
+.todo-list-item--overdue {
+  font-size: 12px;
+  color: #c53030;
+  margin-left: 8px;
+}
+
+.todo-list-item--delete {
+  visibility: hidden;
+  margin-left: 8px;
+}
+
+.todo-list-item--delete img {
+  width: 16px;
+  height: 16px;
+}
+
+.todo-list-item--container:hover .todo-list-item--delete {
+  visibility: visible;
+}

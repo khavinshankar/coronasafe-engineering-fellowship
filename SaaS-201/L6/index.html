@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="./styles.css">
+  <title>Todo Manager</title>
+</head>
+<body>
+  <main class="todo-page--main-container">
+    <h1 class="todo-page--main-title">My To-do List</h1>
+
+    <section class="add-todo--container">
+      <input type="text" name="todo_text" placeholder="What's next?" class="add-todo--text">
+      <input type="date" name="due_date" class="add-todo--date">
+      <input type="button" value="Add" class="add-todo--btn">
+    </section>
+
+    <section class="todo-list--container">
+      <div class="todo-list--title-container">
+        <h3 class="todo-list--title">Due Today</h3>
+        <p class="todo-list--count">0/2</p>
+      </div>
+
+      <ul class="todo-list--items">
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <p class="todo-list-item--overdue">Overdue</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="todo-list--container">
+      <div class="todo-list--title-container">
+        <h3 class="todo-list--title">Due Tomorrow</h3>
+        <p class="todo-list--count">0/1</p>
+      </div>
+
+      <ul class="todo-list--items">
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="todo-list--container">
+      <div class="todo-list--title-container">
+        <h3 class="todo-list--title">Remaining</h3>
+        <p class="todo-list--count">0/3</p>
+      </div>
+
+      <ul class="todo-list--items">
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <p class="todo-list-item--date">Jan 21</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <p class="todo-list-item--date">Jan 22</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+        <li class="todo-list--item">
+          <div class="todo-list-item--container">
+            <input type="checkbox" name="status" class="todo-list-item--status">
+            <p class="todo-list-item--text">Type something</p>
+            <p class="todo-list-item--date">Jan 23</p>
+            <div class="todo-list-item--delete">
+              <img src="./assets/delete.png" alt="trash">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
