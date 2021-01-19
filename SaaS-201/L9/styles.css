@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.signin-form,
+.redirect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #453c52;
+}
+
+.signin-input {
+  font-size: 14px;
+  color: #726a7e;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: #bfb8cc 1px solid;
+  border-radius: 4px;
+}
+
+.signin-input:focus {
+  outline: none;
+  border: #797575 2px solid;
+}
+
+.signin-submit,
+.redirect-btn {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px 22px;
+  border: #48bb78 1px solid;
+  border-radius: 4px;
+  background-color: #48bb78;
+}
+
+.signin-submit:focus {
+  outline: none;
+}
+
+.signin-submit:hover {
+  outline: none;
+  border: #409162 1px solid;
+  background-color: #409162;
+}
+
+.redirect {
+  margin-top: 50px;
+}
+
+.redirect-text {
+  font-size: 18px;
+  color: #453c52;
+  margin-bottom: 10px;
+}
